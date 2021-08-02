@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0 maximum-scale=1.0,minimum-scale=1.0">
+    <title>CaraCaibo-Menú</title>
+    <link rel="shortcut icon" href="img/logo-menu.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/estilo_menu1_skeleton.css">
+    <link rel="stylesheet" href="css/estilo_menu1.css">
+     <!-- link de iconos redes -->
+     <script src="https://kit.fontawesome.com/b10f1efc78.js" crossorigin="anonymous"></script>
+
+      <!-- Alertas mensajes -->
+    <script src="sweetalert2.all.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/promise-polyfill"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+
+</head>
+<body>
+
+    <header class="header">
+        <div class="container">
+            <div class="row">
+                <div class="four columns">
+                    <h1><img id="logoMenu" src="img/logo-menu.jpg" alt=""> Menú</h1>
+                </div>
+                <div class="two columns u-pull-right">
+                    <ul>
+                        <li class="submenu">
+                            <!-- <img src="img/cart.png" alt=""> -->
+                            <!--<a href="index.html"><i title="Inicio" class="fas fa-house-user"></i></a>-->
+                            <a href="#" id="cocinero" title="Informacion del Cocinero 1"><i id="cocinero" class="fas fa-user-tie"> 1</i></a>
+                            <a href="#" id="cocineroo" title="Informacion del Cocinero 2"><i id="cocinero" class="fas fa-user-tie"> 2</i></a>
+                            <!--<a href="menu-2.html"><i title="Pizzas" class="fas fa-pizza-slice"></i></a>
+                            <a href="imagenes.html"><i title="Imagenes" class="far fa-images"></i></a>
+                            <a href="videos.html"><i title="Videos" class="far fa-play-circle"></i></a>
+                            <a href="menu-1.html"><i title="Actualizar pagina" class="fas fa-sync-alt"></i></a>
+                            <div id="">-->
+                                <!--<p class="vacio">carrito vacio</p>
+                                <table class="u-full-width">
+                                     <thead>
+                                        <tr>
+                                            <th>Imagen</th>
+                                            <th>Platillos</th>
+                                            <th>Precio</th>
+                                        </tr>
+                                    </thead> 
+                                    <tbody>
+                                        <tr>
+                                            <td>
+                                                <img src="img/platillo1.jpg" width="100">
+                                            </td>
+                                            <td>Hamburguesa con helado</td>
+                                            <td>$15</td>
+                                            <td><a href="#" class="borrar-platillo" >X</a></td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <img src="img/platillo3.jpg" width="100">
+                                            </td>
+                                            <td>Hamburguesa sencilla</td>
+                                            <td>$15</td>
+                                            <td><a href="#" class="borrar-platillo" >X</a></td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                <a href="#" class="button u-full-width">vaciar carrito</a>-->
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!--container-redes-sociales-->
+    <div class="container-redes" id="redes">
+        <a href="https://api.whatsapp.com/send?phone=573223903945&text=¿Qué servicios ofrecen?" target="_blank">
+            <img src="img/icon/icon-whatsapp.png" title="Enviar mensaje de WhatsApp" alt=""> 
+        </a>
+    </div>
+>
+
+
+
+    <div class="hero">
+        <div class="container"> 
+            <div class="row">  
+                <div class="six columns">
+                    <div class="contenido-hero">
+                        <h2> Menú <i title="Comidas" class="fas fa-hamburger"></i></h2>
+                        <p></p>
+                        <form>
+                            <!-- <input class="u-full-width" type="text" placeholder="¿Que te gustaria probar?" id="buscador">
+                            <input type="submit" class="submit-buscador"> -->
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="barra">
+        <div class="container">
+            <div class="row">
+                <div class="four columns icono icono1">
+                    <p>Combinaciones diferentes<br>
+                    Explora los nuevos platillos</p>
+                </div>
+                <div class="four columns icono icono2">
+                    <p>Comida 100% Venezolana <br>
+                    Prueba y disfruta</p>
+                </div>
+                <div class="four columns icono icono3">
+                    <p>Bebidas<br>
+                   para acompañar tu comida favorita</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="lista-platillos" class="container">
+        <h1 class="encabezado">El menú tambien lo puedes pedir por <i class="fa fa-whatsapp" aria-hidden="true"></i></h1>
+
+        <div class="row">
+            <div class="four columns">
+                <div class="card">
+                    <img src="img/platillo1.jpg" class="imagen-platillo u-full-width">
+                    <div class="info-card">
+                        <h3>Hamburguesa Sencilla</h3>
+                        <h4>Contiene:</h4>
+                        <p>Carne</p>
+                        <p>Huevo</p>
+                        <p>Vegetales</p>
+                        <p>Tomate</p>
+                        <p>Salsas</p>
+                        <p>Domicilio $2.00</p>
+                        <img src="img/estrellas.png">
+                        <p class="precio">$4.500 <span class="u-pull-right">$6.000</span> </p>
+                        <a href="https://api.whatsapp.com/send?phone=573223903945&text= Hamburguesa sencilla con domicilio $8.000" target="_blank" class="u-full-width button-primary button input agregar-carrito"> Pedir por <i class="fa fa-whatsapp" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="four columns">
+                <div class="card">
+                    <img src="img/platillo2.jpg" class="imagen-platillo u-full-width">
+                    <div class="info-card">
+                        <h3>Hamburguesa Media</h3>
+                        <h4>Contiene:</h4>
+                        <p>Carne</p>
+                        <p>Huevo</p>
+                        <p>Queso</p>
+                        <p>Jamon</p>
+                        <p>Tocineta</p>
+                        <p>Vegetales</p>
+                        <p>Tomate</p>
+                        <p>Salsas</p>
+                        <p>Domicilio $2.00</p>
+                        <img src="img/estrellas.png">
+                        <p class="precio">$7.000 <span class="u-pull-right">$8.000</span> </p>
+                        <a href="https://api.whatsapp.com/send?phone=573223903945&text= Hamburguesa Media con domicilio $10.000" target="_blank" class="u-full-width button-primary button input agregar-carrito"> Pedir por <i class="fa fa-whatsapp" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="four columns">
+                <div class="card">
+                    <img src="img/platillo3.jpg" class="imagen-platillo u-full-width">
+                    <div class="info-card">
+                        <h3>Hamburguesa Especial</h3>
+                        <h4>Contiene:</h4>
+                        <p>Carne esmechada</p>
+                        <p>Carne</p>
+                        <p>Huevo</p>
+                        <p>Queso</p>
+                        <p>Jamon</p>
+                        <p>Tocineta</p>
+                        <p>Vegetales</p>
+                        <p>Tomate</p>
+                        <p>Salsas</p>
+                        <img src="img/estrellas.png">
+                        <p class="precio">$9.000 <span class="u-pull-right">$10.000</span> </p>
+                        <a href="https://api.whatsapp.com/send?phone=573223903945&text= Hamburguesa Especial de $10.000" target="_blank" class="u-full-width button-primary button input agregar-carrito"> Pedir por <i class="fa fa-whatsapp" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="four columns">
+                <div class="card">
+                    <img src="img/platillo4.jpg" class="imagen-platillo u-full-width">
+                    <div class="info-card">
+                        <h4>Hamburguesa sencilla</h4>
+                        <p>Domicilio incluido</p>
+                        <img src="img/estrellas.png">
+                        <p class="precio">$15.000 <span class="u-pull-right">$10.000</span> </p>
+                        <a href="https://api.whatsapp.com/send?phone=573223903945&text= Hamburguesa sencilla de $15.000" target="_blank" class="u-full-width button-primary button input agregar-carrito"> Pedir por <i class="fa fa-whatsapp" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="four columns">
+                <div class="card">
+                    <img src="img/platillo5.jpg" class="imagen-platillo u-full-width">
+                    <div class="info-card">
+                        <h4>Hamburguesa sencilla</h4>
+                        <p>Domicilio incluido</p>
+                        <img src="img/estrellas.png">
+                        <p class="precio">$15.000 <span class="u-pull-right">$10.000</span> </p>
+                        <a href="https://api.whatsapp.com/send?phone=573223903945&text= Hamburguesa sencilla de $15.000" target="_blank" class="u-full-width button-primary button input agregar-carrito"> Pedir por <i class="fa fa-whatsapp" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="four columns">
+                <div class="card">
+                    <img src="img/platillo1.jpg" class="imagen-platillo u-full-width">
+                    <div class="info-card">
+                        <h4>Hamburguesa sencilla</h4>
+                        <p>Domicilio incluido</p>
+                        <img src="img/estrellas.png">
+                        <p class="precio">$15.000 <span class="u-pull-right">$10.000</span> </p>
+                        <a href="https://api.whatsapp.com/send?phone=573223903945&text= Hamburguesa sencilla de $15.000" target="_blank" class="u-full-width button-primary button input agregar-carrito"> Pedir por <i class="fa fa-whatsapp" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="four columns">
+                <div class="card">
+                    <img src="img/platillo2.jpg" class="imagen-platillo u-full-width">
+                    <div class="info-card">
+                        <h4>Hamburguesa sencilla</h4>
+                        <p>Domicilio incluido</p>
+                        <img src="img/estrellas.png">
+                        <p class="precio">$15.000 <span class="u-pull-right">$10.000</span> </p>
+                        <a href="https://api.whatsapp.com/send?phone=573223903945&text= Hamburguesa sencilla de $15.000" target="_blank" class="u-full-width button-primary button input agregar-carrito"> Pedir por <i class="fa fa-whatsapp" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="four columns">
+                <div class="card">
+                    <img src="img/platillo3.jpg" class="imagen-platillo u-full-width">
+                    <div class="info-card">
+                        <h4>Hamburguesa sencilla</h4>
+                        <p>Domicilio incluido</p>
+                        <img src="img/estrellas.png">
+                        <p class="precio">$15.000 <span class="u-pull-right">$10.000</span> </p>
+                        <a href="https://api.whatsapp.com/send?phone=573223903945&text= Hamburguesa sencilla de $15.000" target="_blank" class="u-full-width button-primary button input agregar-carrito"> Pedir por <i class="fa fa-whatsapp" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="four columns">
+                <div class="card">
+                    <img src="img/platillo4.jpg" class="imagen-platillo u-full-width">
+                    <div class="info-card">
+                        <h4>Hamburguesa sencilla</h4>
+                        <p>Domicilio incluido</p>
+                        <img src="img/estrellas.png">
+                        <p class="precio">$15.000 <span class="u-pull-right">$10.000</span> </p>
+                        <a href="https://api.whatsapp.com/send?phone=573223903945&text= Hamburguesa sencilla de $15.000" target="_blank" class="u-full-width button-primary button input agregar-carrito"> Pedir por <i class="fa fa-whatsapp" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="four columns">
+                <div class="card">
+                    <img src="img/platillo5.jpg" class="imagen-platillo u-full-width">
+                    <div class="info-card">
+                        <h4>Hamburguesa sencilla</h4>
+                        <p>Domicilio incluido</p>
+                        <img src="img/estrellas.png">
+                        <p class="precio">$15.000 <span class="u-pull-right">$10.000</span> </p>
+                        <a href="https://api.whatsapp.com/send?phone=573223903945&text= Hamburguesa sencilla de $15.000" target="_blank" class="u-full-width button-primary button input agregar-carrito"> Pedir por <i class="fa fa-whatsapp" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="four columns">
+                <div class="card">
+                    <img src="img/platillo1.jpg" class="imagen-platillo u-full-width">
+                    <div class="info-card">
+                        <h4>Hamburguesa sencilla</h4>
+                        <p>Domicilio incluido</p>
+                        <img src="img/estrellas.png">
+                        <p class="precio">$15.000 <span class="u-pull-right">$10.000</span> </p>
+                        <a href="https://api.whatsapp.com/send?phone=573223903945&text= Hamburguesa sencilla de $15.000" target="_blank" class="u-full-width button-primary button input agregar-carrito"> Pedir por <i class="fa fa-whatsapp" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="four columns">
+                <div class="card">
+                    <img src="img/platillo2.jpg" class="imagen-platillo u-full-width">
+                    <div class="info-card">
+                        <h4>Hamburguesa sencilla</h4>
+                        <p>Domicilio incluido</p>
+                        <img src="img/estrellas.png">
+                        <p class="precio">$15.000 <span class="u-pull-right">$10.000</span> </p>
+                        <a href="https://api.whatsapp.com/send?phone=573223903945&text= Hamburguesa sencilla de $15.000" target="_blank" class="u-full-width button-primary button input agregar-carrito"> Pedir por <i class="fa fa-whatsapp" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+    <div class="cm-up" id="cm-up">
+		<input type="button" class="cm-text-up" value="Subir al Inicio">
+		<span class="cm-icon">
+			<i class="fas fa-chevron-up"></i>
+		</span>
+	</div>
+
+   <!-- Footer--pide de pagina -->
+   <div class="container-footer">
+                
+    <footer>
+        <div class="logo-footer">
+            <img src="img/logo.jpg" alt="">
+        </div>
+
+        <div class="redes-footer">
+            <a href="#"><i title="Pagina Facebook" class="fab fa-facebook-f icon-redes-footer"></i></a>
+            <a href="#"><i title="Chat Messenger" class="fab fa-facebook-messenger icon-redes-footer"></i></a>
+            <a href="#"><i title="Pagina Instagram" class="fab fa-instagram icon-redes-footer"></i></a>
+            <a href="#"><i title="Pagina Youtube" class="fab fa-youtube icon-redes-footer"></i></a>
+        </div>
+
+        <hr>
+
+        <h4>© 2021 Todos los derechos reservados Desarrollador Ronald J.Contreras S. <a href="https://api.whatsapp.com/send?phone=573223903945&text= Solicitar información para crear desarrollos" target="_blank"><i class="fa fa-whatsapp" aria-hidden="true"></i></a></h4>
+
+    </footer>
+
+</div>
+
+	<script src="js/jquery.js"></script>
+    <script src="js/script-menu-up.js"></script>
+    
+    <script> 
+        $("#cocinero").click(function(){
+            swal.fire({
+                title: 'Ismael!',
+                text: 'Artista de la cocina..!!',
+                imageUrl: 'img/cocinero.jpg',
+                imageWidth: 400,
+                imageHeight: 400,
+                imageAlt: 'Custom image',
+                showConfirmButton: true,
+                })
+            });
+        </script>
+
+<script> 
+    $("#cocineroo").click(function(){
+        swal.fire({
+            title: 'Manuel!',
+            text: 'Artista de la cocina..!!',
+            imageUrl: 'img/cocineroo.jpg',
+            imageWidth: 400,
+            imageHeight: 400,
+            imageAlt: 'Custom image',
+            showConfirmButton: true,
+            })
+        });
+    </script>
+    
+</body>
+</html>
